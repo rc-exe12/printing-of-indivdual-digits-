@@ -1,3 +1,4 @@
+// count digits in a number.
 #include<stdio.h>
 int ind_n(int);
 int c=0;
@@ -16,3 +17,4 @@ int ind_n(int n){
         return ind_n(n/10);
         
 }
+
