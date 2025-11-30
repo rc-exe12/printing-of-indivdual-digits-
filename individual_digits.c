@@ -1,11 +1,18 @@
 #include<stdio.h>
+int ind_n(int);
+int c=0;
 int main(){
- int n;
- printf("Enter the number of terms(n):\n");
- scanf("%d",&n);
- while(n>0){
-    printf("The digits are:%d\n",n%10);
-    n=n/10;
- }
- 
+    int n,x;
+    printf("enter a number:");
+    scanf("%d",&n);
+    x=ind_n(n);
+    printf("Number of digits in %d is %d\n",n,x);
+}
+int ind_n(int n){
+    if(n==0)
+        return ;
+    else
+    c++ ;
+        return ind_n(n/10);
+        
 }
